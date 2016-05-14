@@ -1,0 +1,241 @@
+/*-----------------------------------------------
+iphone5,6用 自己紹介統一スタイル*/
+@media screen and (min-width: 320px) and (max-width: 1024px)
+{
+    #header3 {
+        display: none;
+    }
+    
+    #gn-menu{
+        
+        transition: 0.5s;
+        width: 100vw;
+        position: relative;
+           box-shadow:0 0 5px #fff, 0 0 5px #ccc, 0 0 1px #aaa;
+04
+    -webkit-box-shadow:0 0 5px #fff, 0 0 5px #ccc, 0 0 1px #aaa;
+05
+    -moz-box-shadow:0 0 5px #fff, 0 0 5px #ccc, 0 0 1px #aaa;
+background: deepskyblue;
+
+        
+    }
+    #gn-icon{
+        transition: 0.5s;
+    }
+    
+    .gn-menu-main > li:last-child {
+		
+		border: none;
+        
+    
+   
+    }.gn-icon-menu::before{
+  margin-left: -15px;
+    vertical-align: -2px;
+    width: 30px;
+    height: 3px;
+    background: #FFFFFF;
+    box-shadow: 0 3px rgba(255, 255, 255, 0), 0 -6px rgb(255, 255, 255), 0 -9px rgba(255, 255, 255, 0), 0 -12px rgb(255, 255, 255);
+    content: '';
+    }
+    .container1{
+        width: 100%;
+    }
+    
+     #sidebar-left{
+        display: none;
+    } 
+     #sidebar-right{
+        display: none;
+    }
+   
+    #main{
+      width: 100%; 
+        margin-left:auto;
+        margin-right:auto;
+           margin-top: 32px;
+    }  
+    /*--------------------------------------------
+ふわっとキャプションが現れるアニメーション*/
+
+.animation1{
+    position: relative;
+    width: 300px;
+    float: left;
+}
+
+#contents1 .animation1 .caption{
+    position: absolute;
+    padding: 20px;
+    background: #e63c35;
+    height: 300px;
+    width: 300px;
+    
+    /*移動をスムーズにする*/
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+    /* ↓ 透明にする*/
+    opacity: 0;
+}
+
+#contents1 .animation1 .caption h2{
+    color: white;
+    font-size: 13px;
+}
+
+#contents1 .animation1 .caption h3{
+    color: white;
+    font-size: 15px;
+}
+
+#contents1 .animation1:hover .caption{
+
+
+    /*透明だったものを表示させる*/
+    opacity: 1;
+}
+    
+    .main-visual{
+        display: none;
+       
+    }
+    
+    
+    #smartch{
+        color: white;
+        font-size: 40px;
+        float: left;
+        text-align: center;
+        display: inline;
+        transition: 0.5s;
+        margin-left: 8px;
+         float: initial;
+        display: block;
+    }
+    
+    #smartch:hover{
+        color: rgb(172,188,206);
+        font-size: 40px;
+        float: left;
+       
+        display: inline;
+        transition: 0.5s;
+         margin-left: 8px;
+         float: initial;
+        display: block;
+    }
+    #main img{
+        margin: 20px;
+    }
+    #stetasber{
+    width: 100%;  
+    overflow: hidden;
+    background: #333333;
+    padding: auto;
+    }
+    .gn-menu-main,
+.gn-menu-main ul {
+		margin: 0;
+		padding: 0;
+		background: deepskyblue;
+		color: white;
+		list-style: none;
+		text-transform: none;
+		font-weight: 300;
+		font-family: 'Lato', Arial, sans-serif;
+		line-height: 60px;
+     z-index: 2;
+
+   
+}.gn-icon-menu.gn-selected::before {
+    background: #FFFFFF;
+    box-shadow: 0 3px rgba(255, 255, 255, 0), 0 -6px rgb(253, 253, 253), 0 -9px rgba(255, 255, 255, 0), 0 -12px #FFFFFF;
+}
+    
+    .gn-menu-main a {
+		display: block;
+		height: 100%;
+		color: white;
+		text-decoration: none;
+		cursor: pointer;
+}
+.gn-scroller {
+		position: absolute;
+		overflow-y: scroll;
+		width: 370px;
+		height: 100%;
+        box-shadow: 0 0 5px #fff, 0 0 5px #ccc, 0 0 1px #aaa;
+    background-color: white;
+}
+    .gn-submenu li a {
+    color: #2196F3;
+}
+
+.no-touch .gn-menu-main a:hover, .no-touch .gn-menu li.gn-search-item:hover, .no-touch .gn-menu li.gn-search-item:hover a {
+  background-color: #2196F3;
+    color: white;
+    }
+    
+ .no-touch .gn-icon-menu:hover::before, .no-touch .gn-icon-menu.gn-selected:hover::before {
+    background: white;
+    box-shadow: 0 3px rgba(255, 255, 255, 0), 0 -6px white, 0 -9px rgba(95, 111, 129, 0), 0 -12px white;
+}
+    /*-----------------------------------------------
+pad用 自己紹介統一スタイル*/
+@media screen and (min-width: 700px) and (max-width: 1280px)
+{
+    #main .content{
+        margin: 0 auto;
+    }
+     #main{
+      width: 700px; 
+        position: relative;
+         float: initial;
+      
+    } 
+    .right-box1{
+    float: left;
+    width: 288px;
+    margin-left: 40px;
+        
+}
+}
+    .gn-menu .media-only{
+        display: inline;
+    }
+    .main-visual1{
+        display: none;
+    }
+    .container2{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #main-1{
+        width: 100vw;
+            margin-top: 35px;
+    margin-left: 0;
+    box-shadow: none;
+       
+    }
+    .container3{
+        width: 100vw;
+    }
+    .main-2{
+        width: 100%;
+    }
+    
+    .main-2 img{
+        display: inline;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .main-2 .minecraft1{
+        font-size: 20px;
+    }
+}
+
+
