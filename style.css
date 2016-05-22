@@ -3,14 +3,13 @@
 *{
     margin: 0;
     padding: 0;
-       font-family: 'Open Sans', sans-serif;
+      
 }
 
 
 body{
     width: 100%;
     background: #f9f9f9;
-     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -131,7 +130,8 @@ body{
 .stetasso li{
     list-style-type: none;
     float: left;
-    margin-top: 2px;
+    margin-top: 0px;
+    
 }
 
 .stetasso a{
@@ -139,7 +139,7 @@ body{
     display: block;
     text-decoration: none;
     color: #f9f9f9;
-    margin: 14px 16px 0px;
+    margin: 20px 14px 0px;
     transition: 0.5s;
  
 }
@@ -149,8 +149,8 @@ body{
     display: block;
     text-decoration: none;
     color: #455a9e;
-    margin: 14px 16px 0px;
-    transition: 0.5s;
+    margin: 20px 14px 0px;
+    transition: 0.3s;
 }
 
 .stetasso .youtube:hover {
@@ -158,8 +158,8 @@ body{
     display: block;
     text-decoration: none;
     color: #e63c35;
-    margin: 14px 16px 0px;
-    transition: 0.5s;
+    margin: 20px 14px 0px;
+    transition: 0.3s;
 }
 
 .stetasso .twiet:hover {
@@ -167,8 +167,8 @@ body{
     display: block;
     text-decoration: none;
     color: #55acee;
-    margin: 14px 16px 0px;
-    transition: 0.5s;
+    margin: 20px 14px 0px;
+    transition: 0.3s;
 }
 
 .stetasso .line:hover {
@@ -176,8 +176,8 @@ body{
     display: block;
     text-decoration: none;
     color: #ea3033;
-    margin: 14px 16px 0px;
-    transition: 0.5s;
+    margin: 20px 14px 0px;
+    transition: 0.3s;
 }
 #main {
     width: 608px;
@@ -673,10 +673,16 @@ a.fbbutton:hover .edge{
 /*ここからは普通のcss*/
 
 #stetasber{
-    width: 1265px;  
+    width: 100%;  
     overflow: hidden;
-    background: #333333;
+    background-color:darkslategray;
+   box-shadow:0px 0px 5px 0px rgba(0, 0, 0, 0.2)
+                ,0px 0px 5px 3px rgba(0, 0, 0, 0.2) inset;;
+
+     
+
     padding: auto;
+    z-index: 100000000;
 }
 
 #side-ber {
@@ -696,6 +702,50 @@ a.fbbutton:hover .edge{
     float: right;
     text-decoration: none;
     color: #000;
+}
+.stetasso a {
+	-webkit-transition: box-shadow 0.2s;
+	-moz-transition: box-shadow 0.2s;
+	transition: box-shadow 0.2s;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    
+    background-color: aliceblue;
+    
+    text-align: center;
+    right: 50px;
+    color: rgb(85,85,85);
+    
+}
+
+.stetasso a:after {
+	top: 0;
+	left: 0;
+	padding: 0;
+	box-shadow: 0 0 0 3px #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	transition: transform 0.2s, opacity 0.2s;
+}
+
+
+
+/* Effect 9b */
+.
+stetasso a:hover:after {
+	-webkit-transform: scale(0.85);
+	-moz-transform: scale(0.85);
+	-ms-transform: scale(0.85);
+	transform: scale(0.85);
+    
+}
+
+.stetasso a:hover {
+	box-shadow: 0 0 0 10px rgba(255,255,255,0.4);
+	color: #fff;
+    
 }
 
 .animation2{
@@ -922,7 +972,7 @@ box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.4);
     text-align: left;
     float: right;
     font-size: 16px;
-    color: darkgrey;
+    color: white;
     margin-top: 8px;
     margin-right: 7px;
 }
@@ -2032,7 +2082,12 @@ input.gn-search:focus {
 }
 
 p{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'M+ C Type-1 (basic latin) Regular',
+        'M+ Type-1 (general-j) Regular', sans-serif;;
+}
+a{
+    font-family: 'M+ C Type-1 (basic latin) Regular',
+        'M+ Type-1 (general-j) Regular', sans-serif;
 }
 
 .kizii{
@@ -2177,3 +2232,4 @@ float: left;
 p:hover + p.arrow_box {
   display: block;
 }
+

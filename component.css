@@ -5,12 +5,12 @@
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 }*/img:hover{
-     -webkit-filter: brightness(70%);
-  filter:brightness(70%);  
-    transition: 0.5s;
+     -webkit-filter: brightness(80%);
+  filter:brightness(80%);  
+    transition: 0.3s;
 }img{
     
-    transition: 0.5s;
+    transition: 0.3s;
 }
 @font-face {
 		font-weight: normal;
